@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\Quyen-Revit co ban\pc-control\AutoControlAppPC\AutoControlAppPC\bin\Debug\AutoControlAppPC.exe.config
+C:\Users\User\Desktop\Quyen-Revit co ban\pc-control\AutoControlAppPC\AutoControlAppPC\bin\Debug\AutoControlAppPC.exe
+C:\Users\User\Desktop\Quyen-Revit co ban\pc-control\AutoControlAppPC\AutoControlAppPC\bin\Debug\AutoControlAppPC.pdb
+C:\Users\User\Desktop\Quyen-Revit co ban\pc-control\AutoControlAppPC\AutoControlAppPC\obj\Debug\AutoControlAppPC.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Quyen-Revit co ban\pc-control\AutoControlAppPC\AutoControlAppPC\obj\Debug\AutoControlAppPC.Form1.resources
+C:\Users\User\Desktop\Quyen-Revit co ban\pc-control\AutoControlAppPC\AutoControlAppPC\obj\Debug\AutoControlAppPC.Properties.Resources.resources
+C:\Users\User\Desktop\Quyen-Revit co ban\pc-control\AutoControlAppPC\AutoControlAppPC\obj\Debug\AutoControlAppPC.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Quyen-Revit co ban\pc-control\AutoControlAppPC\AutoControlAppPC\obj\Debug\AutoControlAppPC.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Quyen-Revit co ban\pc-control\AutoControlAppPC\AutoControlAppPC\obj\Debug\AutoControlAppPC.exe
+C:\Users\User\Desktop\Quyen-Revit co ban\pc-control\AutoControlAppPC\AutoControlAppPC\obj\Debug\AutoControlAppPC.pdb
+C:\Users\User\Desktop\Quyen-Revit co ban\pc-control\AutoControlAppPC\AutoControlAppPC\bin\Debug\KAutoHelper.dll
+C:\Users\User\Desktop\Quyen-Revit co ban\pc-control\AutoControlAppPC\AutoControlAppPC\obj\Debug\AutoControlAppPC.csproj.CopyComplete
