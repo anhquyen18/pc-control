@@ -161,6 +161,7 @@ namespace AutoControlAppPC
 
             // Tìm ra handle con mà thỏa text hoặc class giống
             childhWnd = AutoControl.FindHandle(hWnd, textBox2.Text, textBox1.Text);
+
             // Lấy ra tọa độ màn hình của tọa độ trên cửa sổ
             var pointToClick = AutoControl.GetGlobalPoint(childhWnd, 0, 0);
 
@@ -210,5 +211,91 @@ namespace AutoControlAppPC
 
             AutoControl.SendMultiKeysFocus(new KeyCode[] {KeyCode.CONTROL, KeyCode.KEY_V });
         }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            IntPtr hWnd = IntPtr.Zero;
+            hWnd = AutoControl.FindWindowHandle(null, textBox1.Text);
+
+            AutoControl.SendText(hWnd, "anhquyendeptrai");
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            IntPtr hWnd = IntPtr.Zero;
+            hWnd = AutoControl.FindWindowHandle(null, textBox1.Text);
+
+            var childhWnd = AutoControl.FindHandle(hWnd, "ComboBoxEx32", null);
+
+            AutoControl.SendText(childhWnd, "anhquyendeptrai");
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            IntPtr hWnd = IntPtr.Zero;
+            hWnd = AutoControl.FindWindowHandle(null, textBox1.Text);
+
+            var childhWnd = AutoControl.FindHandle(hWnd, textBox2.Text, textBox2.Text);
+
+            AutoControl.SendClickOnControlByHandle(childhWnd);
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            IntPtr hWnd = IntPtr.Zero;
+            hWnd = AutoControl.FindWindowHandle(null, textBox1.Text);
+
+            var childhWnd = AutoControl.FindHandle(hWnd, textBox2.Text, textBox2.Text);
+
+            int x = (int)numericUpDown1.Value;
+            int y = (int)numericUpDown2.Value;
+
+            // Phải click vào handle con. Không thể click vào handle window
+            // Không phải ứng dụng nào cũng click được
+
+            AutoControl.SendClickOnPosition(childhWnd, x, y);
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            IntPtr hWnd = IntPtr.Zero;
+            hWnd = AutoControl.FindWindowHandle(null, textBox1.Text);
+
+            AutoControl.SendKeyBoardPress(hWnd, VKeys.VK_RETURN);
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            var screen = CaptureHelper.CaptureScreen();
+            screen.Save("mainScreen.png");
+
+            var subBitmap = ImageScanOpenCV.GetImage("template.png");
+
+            var resBitmap = ImageScanOpenCV.Find((Bitmap)screen, (Bitmap)subBitmap);
+
+            if (resBitmap != null)
+            {
+                resBitmap.Save("res.png");
+                    
+            }
+
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            var screen = CaptureHelper.CaptureScreen();
+            screen.Save("mainScreen.png");
+
+            var subBitmap = ImageScanOpenCV.GetImage("template.png");
+
+            var resBitmap = ImageScanOpenCV.FindOutPoint((Bitmap)screen, (Bitmap)subBitmap);
+
+            if (resBitmap != null)
+            {
+                MessageBox.Show(resBitmap.ToString());
+
+            }
+        }
     }
+
 }

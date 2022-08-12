@@ -46,6 +46,14 @@
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
+            this.button19 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             this.SuspendLayout();
@@ -240,17 +248,111 @@
             this.button12.UseVisualStyleBackColor = true;
             this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(27, 206);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(165, 13);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Không chiếm chuột và bàn phím:";
+            // 
+            // button13
+            // 
+            this.button13.AutoSize = true;
+            this.button13.Location = new System.Drawing.Point(30, 239);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(162, 23);
+            this.button13.TabIndex = 0;
+            this.button13.Text = "Sửa tiêu đề của cửa sổ";
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
+            // button14
+            // 
+            this.button14.AutoSize = true;
+            this.button14.Location = new System.Drawing.Point(198, 239);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(162, 23);
+            this.button14.TabIndex = 0;
+            this.button14.Text = "Gửi text combobox";
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
+            // 
+            // button15
+            // 
+            this.button15.AutoSize = true;
+            this.button15.Location = new System.Drawing.Point(30, 276);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(162, 23);
+            this.button15.TabIndex = 0;
+            this.button15.Text = "Click vào control ứng dụng";
+            this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
+            // 
+            // button16
+            // 
+            this.button16.AutoSize = true;
+            this.button16.Location = new System.Drawing.Point(30, 305);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(162, 23);
+            this.button16.TabIndex = 0;
+            this.button16.Text = "Click vào tọa độ ngầm";
+            this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
+            // 
+            // button17
+            // 
+            this.button17.AutoSize = true;
+            this.button17.Location = new System.Drawing.Point(30, 334);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(169, 23);
+            this.button17.TabIndex = 0;
+            this.button17.Text = "Gửi phím ENTER cho ứng dụng";
+            this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
+            // 
+            // button18
+            // 
+            this.button18.AutoSize = true;
+            this.button18.Location = new System.Drawing.Point(30, 363);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(169, 23);
+            this.button18.TabIndex = 0;
+            this.button18.Text = "Kiểm tra hình có xuất hiện";
+            this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
+            // 
+            // button19
+            // 
+            this.button19.AutoSize = true;
+            this.button19.Location = new System.Drawing.Point(205, 363);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(169, 23);
+            this.button19.TabIndex = 0;
+            this.button19.Text = "Xuất ra tọa độ hình";
+            this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(774, 309);
+            this.ClientSize = new System.Drawing.Size(774, 421);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.numericUpDown2);
             this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.button14);
+            this.Controls.Add(this.button19);
+            this.Controls.Add(this.button18);
+            this.Controls.Add(this.button17);
+            this.Controls.Add(this.button16);
+            this.Controls.Add(this.button15);
+            this.Controls.Add(this.button13);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button9);
@@ -292,6 +394,14 @@
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button button19;
     }
 }
 

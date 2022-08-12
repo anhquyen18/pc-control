@@ -10,3 +10,4 @@ C:\Users\User\Desktop\Quyen-Revit co ban\pc-control\AutoControlAppPC\AutoControl
 C:\Users\User\Desktop\Quyen-Revit co ban\pc-control\AutoControlAppPC\AutoControlAppPC\obj\Debug\AutoControlAppPC.pdb
 C:\Users\User\Desktop\Quyen-Revit co ban\pc-control\AutoControlAppPC\AutoControlAppPC\bin\Debug\KAutoHelper.dll
 C:\Users\User\Desktop\Quyen-Revit co ban\pc-control\AutoControlAppPC\AutoControlAppPC\obj\Debug\AutoControlAppPC.csproj.CopyComplete
+C:\Users\User\Desktop\Quyen-Revit co ban\pc-control\AutoControlAppPC\AutoControlAppPC\bin\Debug\Emgu.CV.World.dll
